@@ -13,16 +13,13 @@ body{
 }
 img{
   object-fit: cover;
+  cursor: pointer;
 }
-.container{
-  max-width: 1270px;
-  margin: 0 auto;
-  padding: 0 15px;
+a{
+  color: $link;
 }
-
-.title{
-  font-size: 30px;
-  line-height: 30px;
-  color: $title;
+h3,
+h4{
+  color: #000;
 }
 

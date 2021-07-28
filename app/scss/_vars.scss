@@ -1,5 +1,32 @@
-$default: #2b2311;
-$accent: #ff004c;
-$title:#2b2311;
+$default: #5a5a5a;
+$accent: #ed3833;
 $bg: #fff;
-$link: #000;
+$link: #5a5a5a;
+%df{
+  display: flex;
+  align-items: center;
+}
+%pr{
+  position: relative;
+}
+%pa{
+  position: absolute;
+}
+%br50{
+  border-radius: 50%;
+}
+%w100{
+  width: 100%;
+}
+%poppins-700{
+  font-family: 'Poppins-Bold', sans-serif;
+  font-weight: 700;
+}
+%poppins-500{
+  font-family: 'Poppins-Medium', sans-serif;
+  font-weight: 500;
+}
+%poppins-400{
+  font-family: 'Poppins-Regular', sans-serif;
+  font-weight: 400;
+}
